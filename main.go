@@ -13,7 +13,7 @@ func Greet(name string) string {
 }
 
 func main() {
-	greeting := Greet("change-mee")
+	greeting := Greet("change-monkey")
 	log.Printf(greeting)
 	for {
 		// Don't exit, otherwise Kubernetes thinks we crashed.
